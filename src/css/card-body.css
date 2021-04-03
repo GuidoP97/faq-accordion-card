@@ -9,10 +9,13 @@
 }
 
 .datails {
+  width: 100%;
   position: relative;
 }
 
 .summary-title {
+  font-weight: bold;
+  outline: none;
   list-style: none;
   cursor: pointer;
 }
@@ -32,5 +35,6 @@
 }
 
 .details .article-description {
-  padding: .5rem 0 0 0;
+  padding: .5rem 0;
+  border-bottom: 1px solid var(--light-grayish-blue);
 }
