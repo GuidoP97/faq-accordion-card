@@ -1,0 +1,36 @@
+.card-body {
+  width: 100%;
+  height: 66%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 0 1.5rem;
+}
+
+.datails {
+  position: relative;
+}
+
+.summary-title {
+  list-style: none;
+  cursor: pointer;
+}
+
+.summary-title::-webkit-details-marker {
+  display: none;
+}
+
+.summary-title::after{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url('../../images/icon-arrow-down.svg');
+  background-repeat:no-repeat;
+  position: absolute;
+  right: 2rem;
+}
+
+.details .article-description {
+  padding: .5rem 0 0 0;
+}
