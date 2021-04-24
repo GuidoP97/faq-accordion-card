@@ -19,6 +19,6 @@ articulos.map(({ children }) => {
       newClick = e.target.parentElement;
       lastClick.removeAttribute('open')
     }
-    console.log(newClick, lastClick);
+    // console.log(newClick, lastClick);
   })
 })
