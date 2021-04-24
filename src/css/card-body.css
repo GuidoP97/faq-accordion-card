@@ -8,9 +8,15 @@
   padding: 0 1.5rem;
 }
 
-.datails {
+.article {
+  width: 100%;
+}
+
+.details {
   width: 100%;
   position: relative;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--light-grayish-blue);
 }
 
 .summary-title {
@@ -30,21 +36,21 @@
   background-image: url('../../images/icon-arrow-down.svg');
   background-repeat:no-repeat;
   position: absolute;
-  right: 2rem;
+  right: 0rem;
 }
 
 .details .article-description {
-  padding: .5rem 0;
-  border-bottom: 1px solid var(--light-grayish-blue);
+  padding: .5rem 0 0 0;
+  width: 85%;
+  color: var(--dark-grayish-blue);
 }
 
 .details[open] .summary-title{
   font-weight: bold;
-  position: relative;
 }
 
 .details[open] .summary-title::after {
-  top: -.8rem;
-  right: -.6rem;
+  top: -.9rem;
+  right: .5rem;
   transform: rotate(180deg);
 }
