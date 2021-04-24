@@ -7,6 +7,7 @@ let newClick =  '',
 lastClick = '';
 
 articulos.map(({ children }) => {
+  // seleccionar la etiqueta details
   const [...detailsTag] = children;
   const contenedorEvento = detailsTag[0]
 

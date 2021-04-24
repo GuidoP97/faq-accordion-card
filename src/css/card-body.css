@@ -14,7 +14,6 @@
 }
 
 .summary-title {
-  font-weight: bold;
   outline: none;
   list-style: none;
   cursor: pointer;
@@ -37,4 +36,15 @@
 .details .article-description {
   padding: .5rem 0;
   border-bottom: 1px solid var(--light-grayish-blue);
+}
+
+.details[open] .summary-title{
+  font-weight: bold;
+  position: relative;
+}
+
+.details[open] .summary-title::after {
+  top: -.8rem;
+  right: -.6rem;
+  transform: rotate(180deg);
 }
