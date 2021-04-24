@@ -1,5 +1,6 @@
 @import './card-header.css';
 @import './card-body.css';
+@import './desktop-mq.css';
 
 * {
   margin: 0;
